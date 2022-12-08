@@ -1,0 +1,22 @@
+{
+  "name": "evabot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "evangeline": "^1.0.2",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.0",
+    "tsc": "^2.0.4"
+  }
+}
